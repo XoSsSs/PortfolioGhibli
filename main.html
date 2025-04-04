@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/7670df2c87.js" crossorigin="anonymous"></script>
+
     <title>Rahael.P</title>
 </head>
 <body>
@@ -16,9 +17,9 @@
             <img src="IMG/Logo.png" alt="Logo">
             <div class="Boutton-nav">
                 <ul>
-                    <li>Biographie</li>
-                    <li>Projet</li>
-                    <li class="button">Contact</li>
+                    <li id="Biographie">Biographie</li>
+                    <li id="Projet">Projet</li>
+                    <li class="button" id="GoContact">Contact</li>
                 </ul>
             </div>
         </nav>
@@ -30,8 +31,8 @@
                 <p>je suis Raphael Payet </p>
                 <p>Développeur web </p>
                 <div class="buttons">
-                    <p class="button"id="Special">Telecharger</p>
-                    <p class="button" >A propos de moi</p>
+                    <p class="button"id="Special">Telecharger CV</p>
+                    <p class="button" id="Linkedin">Linkedin</p>
                 </div>
             </div>
             
@@ -146,7 +147,7 @@ En tant que chef de rang dans un bar à tapas de grande affluence, j’ai appris
         </div>
         <p>Mes projets</p>
         <h2>Mon portfolio </h2>
-        <div class="LesProjets">
+        <div class="LesProjets" id="LesProjet">
             <div class="BoxProjet">
                 <div class="PhotoProjetS"></div>
                 <h3>Jeux Snake en JS</h3>
@@ -170,7 +171,7 @@ En tant que chef de rang dans un bar à tapas de grande affluence, j’ai appris
         </div>
         <p>On ce vois quand ?</p>
         <h2>Contactez Moi </h2>
-        <div class="contact">
+        <div class="contact" id="Cont">
             <div class="BoxContact">
                 <i class="fa-solid fa-envelope"></i>
                 <h3>Email</h3>
@@ -185,7 +186,7 @@ En tant que chef de rang dans un bar à tapas de grande affluence, j’ai appris
         <div class="ImageSeparation">
 
         </div>
-        <div class="Footer">
+        <div class="Footer" id="Footer">
           
             <h1>Merci d’avoir visiter mon Portfolio</h1>
         </div>
@@ -193,4 +194,5 @@ En tant que chef de rang dans un bar à tapas de grande affluence, j’ai appris
         </article>
 
 </body>
+<script src="script.js"></script>
 </html>
