@@ -162,13 +162,13 @@ h2{
 {
     display: flex;
     padding: 75px 128px;
-    max-width:1664px ;
+  
     align-items: center;
     gap: 50px;
     flex: 1 0 0;
     align-self: stretch;
     justify-content: center;
-   
+    flex-wrap: wrap-reverse;
 
 }
 .Desc{
@@ -189,6 +189,7 @@ h2{
     align-items: center;
     gap: 20px;
     align-self: stretch;
+    justify-content: center;
     
 }
 .BoxComp
@@ -231,6 +232,7 @@ line-height: normal;
     flex: 1 0 0;
     align-self: stretch;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 .Dev
 {
@@ -259,7 +261,7 @@ line-height: normal;
     display: flex;
     height: 100%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 3px;
     flex: 1 0 0;
     
@@ -301,16 +303,15 @@ line-height: normal;
 {
     display: flex;
     padding: 0px 128px;
-    align-items: center;
-    gap: 272px;
     align-self: stretch;
     flex-direction: row;
     margin-bottom: 20px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 .TextJ{
     display: flex;
     width: 586px;
-    height: 578px;
     text-align: center;
     align-items: center;
     flex-direction: column;
@@ -333,6 +334,8 @@ line-height: normal;
     padding: 97px 128px;
     align-items: center;
     gap: 46px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .BoxProjet
 {
@@ -347,6 +350,7 @@ line-height: normal;
     border-radius: 21px;
     background: #242F42;
     text-align: start;
+
 }
 .PhotoProjetS{
     background: url(IMG/ImageSnake.png);
@@ -443,4 +447,46 @@ line-height: normal;
     flex-shrink: 0;
     aspect-ratio: 1915.59/217.00;
     padding: 0;
+}
+
+@media (max-width:1440px){
+
+    .BoxComp i {
+        font-size: 35px;
+    }
+    .BoxComp{
+        width: auto;
+    }
+    .textDesc{
+        font-size: 17px;
+    }
+    .PhotoBur{
+        width: 355px;
+        height: 289px;
+    }
+}
+@media (max-width:1024px) {
+    .imageProfile{
+        width: 216px;
+        height: 316px;
+    }
+    #Front{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .text h1{
+        font-size: 34px;
+    }
+    .text p{
+
+    }
+    .buttons{
+        font-size: 16px;
+    }
+    #transparance{
+        height: 228px;
+        position: relative;
+        bottom: 150px;
+    }
 }
