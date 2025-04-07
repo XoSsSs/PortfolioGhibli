@@ -1,0 +1,498 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lexend",sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:#272525 ;
+    overflow-x: hidden;
+}
+header{
+    
+    height: 1080px;
+    background-image:url("IMG/Background-header.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    height: 91px;
+    padding: 0px 128px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+nav img{
+    width: 191px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    align-items: center;
+    gap: 50px;
+}
+ul li{
+cursor: pointer;
+}
+.button{
+    display: flex;
+    width: 109px;
+    height: 40px;
+    padding: 4px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+    border-radius: 9px;
+    background: #5263FF;
+    box-shadow: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+#Front
+{
+    display: flex;
+    padding: 80px 130px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.text
+{
+    display: flex;
+    padding: 100px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.text h1{
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+}   
+.text p{
+    margin: 10px;
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.buttons 
+{
+    display: flex;
+    padding: 50px 78px;
+    justify-content: center;
+    align-items: center;
+    gap: 149px;  
+   
+}
+.buttons p{
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+#Special
+{
+    border: 1px solid var(--Color-2, #5263FF);
+    background: rgba(82, 99, 255, 0.00);
+}
+#Special:hover{
+    background: #5263FF;
+}
+.imageProfile
+{
+    width: 433px;
+    height: 633px;
+    background: url(IMG/ImageProfile.png);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #000;
+    flex-shrink: 0;
+}
+
+#transparance
+{
+
+    height: 428px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) -37.24%, rgba(122, 120, 120, 0.00) 9.96%, var(--Color, #272525) 39.07%);
+}
+
+
+article
+{
+    display: flex;
+    height: 1080px;
+    padding: 48px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    justify-items: center;
+    
+}
+p{
+    color: #FFF;
+    margin: 10px;
+}
+h2{
+    color: #5263FF;
+    font-style: normal;
+    margin: 10px;
+}
+.PhotoBur
+{
+    background: url(IMG/imageBio.png);
+    background-position: center;
+    background-size: cover;
+    width: 710px;
+    height: 578px;
+    border-radius: 22px;
+   
+}
+#Bio
+{
+    display: flex;
+    padding: 75px 128px;
+  
+    align-items: center;
+    gap: 50px;
+    flex: 1 0 0;
+    align-self: stretch;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+
+}
+.Desc{
+    display: flex;
+    padding: 25px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+   
+}
+
+.Box
+{
+    display: flex;
+    height: 201px;
+    padding: 19px 78px 19px 26px;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    justify-content: center;
+    
+}
+.BoxComp
+{
+    display: flex;
+    width: 256px;
+    padding: 21px 50px 21px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    border-radius: 40px;
+    background: #242F42;
+ 
+}
+.BoxComp i
+{
+    font-size: 52px;
+    color: #5263FF;
+}
+.BoxComp p 
+{
+    font-size: 16px;
+}
+.textDesc
+{
+    text-align: center;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.softComp
+{
+    display: flex;
+  /*  padding: 72px 950px;*/
+    justify-content: center;
+    align-items: flex-start;
+    gap: 74px;
+    flex: 1 0 0;
+    align-self: stretch;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.Dev
+{
+    display: flex;
+    width: 474px;
+    height: 457px;
+    padding: 39px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 40px;
+    background: var(--Color-3, #242F42);
+}
+.LogoDev
+{
+    display: flex;
+    width: 360px;
+    height: 334px;
+    padding: 43px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+}
+.column{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    flex: 1 0 0;
+    
+}
+.column h3{
+    margin: 5px;
+    color: #FFF;
+}
+.column i 
+{
+    font-size: 48px;
+    color: #5263FF;
+    flex-shrink: 0;
+    
+}
+.column p{
+    margin: 5px;
+    padding-bottom: 10px;
+}
+.exp{
+    display: flex;
+    
+
+    padding: 57px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    flex-shrink: 0;
+}
+.photoK{
+    background-image:url(IMG/ImageKFC.png) ;
+    background-size: cover;
+    background-position: center;
+    width: 614px;
+    height: 676px;
+    border-radius: 41px;
+}
+.Job
+{
+    display: flex;
+    padding: 0px 128px;
+    align-self: stretch;
+    flex-direction: row;
+    margin-bottom: 20px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.TextJ{
+    display: flex;
+    width: 586px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+.TextJ h3{
+    color: #FFF;
+}
+.photoS{
+    background-image:url(IMG/imageServeur.png) ;
+    background-size: cover;
+    background-position: center;
+    width: 614px;
+    height: 676px;
+    border-radius: 41px;
+}
+.LesProjets
+{
+    display: flex;
+    padding: 97px 128px;
+    align-items: center;
+    gap: 46px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.BoxProjet
+{
+    display: flex;
+    width: 391px;
+    height: 621px;
+    padding-top: 33px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #242F42;
+    text-align: start;
+
+}
+.PhotoProjetS{
+    background: url(IMG/ImageSnake.png);
+    background-position: center;
+    background-size: cover;
+    width: 335px;
+    height: 467px;
+    border-radius: 15px;
+}
+.PhotoProjetM{
+    background: url(IMG/ImageMemo.png);
+    background-position: center;
+    background-size: cover;
+    width: 335px;
+    height: 467px;
+    border-radius: 15px;
+}
+.PhotoProjetC{
+    background: url(IMG/ImageCowboy.png);
+    background-position: center;
+    background-size: cover;
+    width: 335px;
+    height: 467px;
+    border-radius: 15px;
+}
+.PhotoProjetV{
+    background: url(IMG/ImageS.png);
+    background-position: center;
+    background-size: cover;
+    width: 335px;
+    height: 467px;
+    border-radius: 15px;
+}
+.BoxProjet h3{
+    color: #FFF;
+}
+.BoxProjet p{
+    color: #5263FF;
+    cursor: pointer;
+}
+.contact
+{
+    display: flex;
+    width: 978px;
+    padding: 32px 225px;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    flex: 1 0 0;
+    margin-bottom: 170px;
+}
+.BoxContact
+{
+    display: flex;
+    width: 445px;
+    height: 161px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 22px;
+    background: #242F42;
+}
+.BoxContact i 
+{
+    font-size: 50px;
+    color: #5263FF;
+}
+.BoxContact p{
+    color: #5263FF;
+}
+.BoxContact h3{
+    color: #FFF;
+}
+.Footer{
+    display: flex;
+    width: 100%;
+    height: 331px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #BFD7FF;
+}
+.ImageSeparation
+{
+    position: relative;
+    top: 30px;
+    background: url(IMG/waves2.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 217px;
+    width: 110%;
+    flex-shrink: 0;
+    aspect-ratio: 1915.59/217.00;
+    padding: 0;
+}
+
+@media (max-width:1440px){
+
+    .BoxComp i {
+        font-size: 35px;
+    }
+    .BoxComp{
+        width: auto;
+    }
+    .textDesc{
+        font-size: 17px;
+    }
+    .PhotoBur{
+        width: 355px;
+        height: 289px;
+    }
+}
+@media (max-width:1024px) {
+    .imageProfile{
+        width: 216px;
+        height: 316px;
+    }
+    #Front{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .text h1{
+        font-size: 34px;
+    }
+    .text p{
+
+    }
+    .buttons{
+        font-size: 16px;
+    }
+    #transparance{
+        height: 228px;
+        position: relative;
+        bottom: 150px ;
+    }
+}

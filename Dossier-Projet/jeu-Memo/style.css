@@ -1,0 +1,105 @@
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    margin: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: black;
+}
+#content
+{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+}
+#carte{
+    
+    width: 30%;
+    height: 40%;
+    margin: 2px 3px;
+    background-color: brown;
+    background-image: url(Image/Back-Carte.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    border-radius: 5px;
+    z-index: 0;
+
+}  #carte:hover {
+   background-size: 120%;/* Effectue la rotation au survol */
+}
+#carte :last-child{
+    margin-left: 35%;
+}
+
+
+#face{
+    display: none;
+    width: 30%;
+    height: 40%;
+    margin: 2px 3px;
+    background-color: brown;
+    background-image: url(Image/Back-Carte.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    border-radius: 5px;
+    z-index: 0;
+}
+img{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.chiffre
+{
+    display: none;
+}
+.starter{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+ 
+    height: 1200px;
+    background-color: black;
+    
+    z-index: 20;
+}
+.starter button
+{
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background-color: brown;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+    color: white;
+}
+.logo{
+    display: inline;
+    width: 200px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 70%;
+
+
+}
+.starter button:hover{
+    font-size: 105px;
+}

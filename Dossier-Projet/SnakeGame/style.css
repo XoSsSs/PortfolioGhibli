@@ -1,0 +1,52 @@
+body{
+    
+    margin: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: brown;
+}
+
+#plate
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#Ecran{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    position: absolute;
+    overflow-x: none;
+}
+#starter
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background: green;
+    z-index: 10;
+}
+h1
+{
+    text-align: center;
+}
+img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+button{
+    margin: auto;
+   margin-top: 0;
+    font-size: 40px;
+    border-radius: 20px;
+}
+button:hover{
+    font-size: 45px;
+}

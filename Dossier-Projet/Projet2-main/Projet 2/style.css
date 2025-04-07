@@ -1,0 +1,1106 @@
+body
+{
+    margin: 0 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    font-family: 'Raleway', sans-serif;
+}
+/*Parametre du header*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+header img
+{
+    width: 100px;
+    margin-left: 20px;
+}
+header ul
+{
+    display: flex;
+}
+header li
+{
+    list-style: none;
+}
+/* Parametre du nav */
+.hebergement
+{
+    font-size: small;
+    margin-right: 60px;
+    padding: 57px 20px 0 ;
+}
+.hebergement:hover
+{
+    color: #0065FC;
+    border-top:1px solid #0065FC ;
+}
+header li a
+{
+    text-decoration: none;
+    
+    
+    color: black;
+}
+.activite
+{
+    font-size: small;
+    padding:57px 20px 0 ;
+}
+.activite:hover
+{
+color: #0065FC;
+border-top:1px solid #0065FC;
+}
+/*Parametre Recherche */
+ h2
+{
+    margin-bottom: 0;
+    font-size: 23px;
+}
+ h5
+{
+    margin-top: 0;
+
+}
+form
+{
+    display: flex;
+    
+}
+form span,input
+{
+    
+    font-weight: bold;
+}
+form i
+{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+form span
+{
+    
+    background-color:#F2F2F2 ;
+    border-radius: 10px 0 0 10px;
+}
+form input
+{
+    border: solid 1px #F2F2F2;
+}
+form .Recherche{
+    background-color:#0065FC ;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    content: 'Recherche';
+}
+.loupe
+{
+    display: none;
+}
+.Filtres
+{
+    display: flex;
+    margin-top: 10px;
+}
+.Filtres ul
+{
+    display: flex;
+  
+    padding: 0;
+
+   
+}
+.Filtres li
+{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 50px;
+    list-style: none;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px;
+    border-left: #DEEBFF;
+    background:white;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+   z-index: 0;
+   
+    
+}
+.Filtres li a
+{
+    font-size:15px ;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.Filtres li span 
+{
+    
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+    font-size: 15px;
+   
+    padding: 10px;
+   
+    
+}
+.Filtres h3
+{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.inform
+{
+    display: flex;
+}
+.inform span
+{
+    float: left;
+    border:1px solid #DEEBFF;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+    
+}
+.inform span i
+{
+    color: #0065FC;
+}
+.inform p 
+{
+    font-size: 15px;
+    
+}
+
+/* Animation */
+
+.Filtres li:hover
+{
+    background: #DEEBFF;
+    font-size: 20px;
+    
+   transition-duration: 2s;
+   
+
+}
+.Filtres a:hover{
+    font-size: large;
+    
+    transition-duration: 2s;
+}
+
+/* Hebergement */
+article
+{
+    
+    padding-top: 10px;
+    margin-top: 25px;
+    height: 100%;
+    width: 65%;
+    background: #F2F2F2;
+   
+    border-radius: 10px;
+}
+article h1 
+{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.Hebergement
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    height: 70%;
+    overflow: hidden;
+ 
+}
+.Auberge
+{
+
+    background: white;
+    width: 240px;
+    height: 190px;
+    margin-bottom: 20px;
+    box-shadow:2px 2px 1px rgb(177, 175, 175) ;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px ;
+   
+}
+.Auberge h1, p
+{
+    margin: 5px 10px 5px 10px;
+    font-size: 17px;
+}
+/*Photo*/
+.Auberge .photo
+{
+
+    width: 95%;
+    height: 60%;
+    background: url(images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0 ;
+    margin: 5px 5px 0 5px;
+}
+.Auberge .photo1
+{
+
+    width: 95%;
+    height: 60%;
+    background: url(images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0 ;
+    margin: 5px 5px 0 5px;
+}
+.Auberge .photo2
+{
+
+    width: 95%;
+    height: 60%;
+    background: url(images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0 ;
+    margin: 5px 5px 0 5px;
+}
+.Auberge .photo3
+{
+
+    width: 95%;
+    height: 60%;
+    background: url(images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0 ;
+    margin: 5px 5px 0 5px;
+}
+
+.Auberge .photo4
+{
+
+    width: 95%;
+    height: 60%;
+    background: url(images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0 ;
+    margin: 5px 5px 0 5px;
+}
+.Auberge .photo5
+{
+
+    width: 95%;
+    height: 60%;
+    background: url(images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0 ;
+    margin: 5px 5px 0 5px;
+}
+.Auberge img
+{
+    width: 100%;
+    height: 100%;
+    scale: 1px;
+}
+.Auberge span
+{
+    font-size: 15px;
+    color: #0065FC;
+    
+}
+.Auberge span:first-child
+{
+    margin-left: 10px;
+}
+.Hebergement+p 
+{
+    padding-top: 20px;
+margin-left: 30px;
+font-weight: bold;
+}
+.etoilesM span:nth-child(n+4)
+{
+color: #DEEBFF;
+}
+.etoiles span:nth-child(n+5)
+{
+    color: #DEEBFF;
+}
+/*Aside Parametre */
+.rengement
+{
+    display: flex;
+}
+aside
+{
+    
+    margin: 25px 0 0 15px;
+    background: #F2F2F2;
+    width: 35%;
+
+    border-radius: 10px;
+}
+.Titre
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 0 15px;
+}
+.Titre h2
+{
+    margin: 0 5px 0 0 ;
+}
+.Titre span i {
+    font-size: 20px
+}
+.populaire 
+{
+    display: flex;
+    
+    flex-wrap: nowrap;
+   
+    margin: 30px ;
+    height: 135px;
+    background: white;
+    border-radius: 10px;
+}
+.populaire .photo6
+{
+    width:40% ;
+   
+    
+    background: url(images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 3px;
+    border-radius: 10px 0 0 10px;
+}
+.populaire .photo7
+{
+    min-width:40% ;
+   
+    
+    background: url(images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 3px;
+    border-radius: 10px 0 0 10px;
+}
+.populaire .photo8
+{
+    width:40% ;
+   
+    
+    background: url(images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 3px;
+    border-radius: 10px 0 0 10px;
+}
+
+.description span 
+{
+font-size: 10px;
+margin-top: 20px;
+color: #0065FC;
+}
+.description span:first-child
+{
+    margin-left: 10px;
+}
+
+.starM span:nth-child(N+5)
+{
+    color: #DEEBFF;
+
+}
+.starG span:nth-child(n+5)
+{
+    color: #DEEBFF;
+}
+.Activites
+{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+   
+    height: 500px;
+}
+.Activites .act
+{
+    margin: 10px 10px 0 0;
+}
+.rengement+h1
+{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.Activites .act, .double, .double1
+{
+    width: 100%;
+    height: 95%;
+    
+    
+    border-radius: 10px;
+}
+.double1
+{
+    margin: 10px 10px 0 10px;
+} 
+.double
+{
+    margin: 10px 10px 0 10px;
+}
+.act
+{
+   
+    box-shadow: 2px 2px grey;
+}
+
+.act .photo9
+{
+    height: 90%;
+    border-radius: 10px 10px 0 0 ;
+    background: url(images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.act .photo11
+{
+    height: 90%;
+    border-radius: 10px 10px 0 0 ;
+    background: url(images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.double
+{
+    width: 110%;
+}
+.double .act2
+{
+    height: 49%;
+   
+
+}
+.double1 .act2
+{
+    height: 49%;
+   
+
+}
+.double1
+{
+    width: 110%;
+}
+.double1 .act2:last-child
+{
+    height: 30%;
+   
+
+}
+.double1 .act2:first-child
+{
+    margin-bottom: 39px;
+    height: 291px;
+}
+.act2
+{
+
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+.double .act2:first-child
+{
+    margin-bottom: 20px;
+}
+.double .act2:last-child
+{
+    height: 45%;
+}
+.double1 .Photo 
+{
+    height:80% ;
+    background: url(images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0 ;
+}
+.double1 .photo10
+{
+    height: 80%;
+    background: url(images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0 ;
+    background-position: center;
+}
+.double .photo12
+{
+    height: 80%;
+    background: url(images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0 ;
+    background-position: center;
+}
+.double .photo13
+{
+    height: 80%;
+    background: url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0 ;
+    background-position: center;
+}
+.Activites p 
+{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer
+{
+    background: #F2F2F2;
+    margin: 20px -26px 0;
+}
+.foot
+{
+    display: flex;
+     margin: 0 105px 0 23px;
+    justify-content: space-between;
+}
+.foot p:first-child
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/*Responsive*/
+
+@media screen and (max-width:1024px){
+    .Filtres li {
+      height: 32px;  
+      margin-right: 10px;
+    }
+    .Filtres li span{
+        padding: 9px;
+    }
+    body
+    {
+        margin-left: 27px;
+        margin-right: 26px;  
+    }
+    article
+    {
+        width: 605px;
+    }
+    .Auberge
+    {
+        width: 176px;
+        height: 170px;
+    }
+    .Auberge h1, p 
+    {
+        font-size: 13px;
+        margin: 8px 10px 0px 10px
+    }
+    .etoiles span
+    {
+        font-size: 10px;
+    }
+    .etoilesP span
+    {
+        font-size: 10px;
+    }
+    .etoilesM span
+    {
+        font-size: 10px;
+    }
+    .Hebergement+p
+    {
+        padding-top: 0;
+        margin-bottom: 27px;
+    }
+    .populaire
+    {
+        height: 110px;
+    }
+    aside
+    {
+        margin: 25px 0 0 15px;
+    }
+    .description span
+    {
+        font-size: 10px;
+    }
+    .description+p
+    {
+        margin-top: 10px;
+    }
+    .act p
+    {
+        font-size: 14px;
+    }
+    .act2 p 
+    {
+        font-size: 15px;
+    }
+    #activ
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:768px){
+.rengement{
+    flex-direction: column;
+}
+aside
+{
+    
+    margin: 25px 0 0 0px;
+    width: 720px
+}
+.description p
+{
+    font-size: 20px;
+
+}
+article
+{
+    width: 720px
+}
+.Auberge
+{
+    width: 215px
+}
+.Titre
+{
+    justify-content:center;
+}
+article h1
+{
+    text-align: center;
+}
+.rengement+h1
+{
+    text-align: center;
+}
+nav li
+{
+    width: 91px
+}
+.act p
+    {
+        font-size: 14px;
+    }
+.Filtres ul .dog a
+{
+    font-size: 11px;
+}
+footer
+{
+    margin: 0 -26px 0 -25px;
+    justify-content: space-around;
+}
+}
+@media screen and (max-width:425px){
+    header{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    header img
+    {
+        
+       
+    margin-left: 45%;
+
+    }
+    header li
+    {
+        margin-right: 125px;
+
+        margin-left: -58px;
+    
+
+    }
+    .hebergement
+    {
+        margin-left: -7px;
+        font-size: 20px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #F2F2F2;
+        width: 30px;
+       
+        padding-right: 45px;
+        padding-left: 53px;
+    }
+    .activite
+    {
+        margin-left: 51px;
+        font-size: 20px;
+        border-bottom: 3px solid #F2F2F2;
+        padding: 54px 107px 10px;
+
+    }
+    body
+    {
+        width: 100%;
+        
+    }
+    .activite:hover
+    {
+        color:#0065FC ;
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+    .hebergement:hover
+    {
+        color:#0065FC ;
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+    .inform p 
+    {
+        font-size: 13px;
+        margin: 10px 10px 0px 0px;
+    }
+    .Formulaire h2
+    {
+        font-size: 25Px;
+        margin-right: 81px;
+    }
+  .Formulaire p
+  {
+    margin: 5px 10px 5px 0;
+  }
+  form
+  {
+    height: 40px;
+    margin-top:20px
+  }
+  form span 
+  {
+    font-size: 15px;
+  }
+  input
+  {
+      padding: 0;
+      font-size: 20px;
+  }
+  .Recherche
+  {
+    display: none;
+      background:#0065FC ;
+  } 
+.loupe
+ {
+    display: block;
+      position: absolute;
+      margin-left: 267px;
+   
+ }
+ .loupe span
+ {
+     border-radius: 10px;
+    
+     background: #0065FC ;
+ }
+ .loupe span i 
+ {
+     color: white;
+ }
+ .Filtres .famille
+ {
+    position: absolute;
+    margin-left: 183px;
+ }
+ .Filtres ul .dog a
+ {
+    font-size: 15px;
+ }
+ .Filtres 
+ {
+     flex-direction: column;
+}
+.Filtres h3
+{
+    font-size: 20px;
+}
+.Filtres ul 
+{
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 111px;
+}
+.Filtres ul li
+{
+ flex-wrap: wrap;
+margin-left: 0;
+}
+article
+{
+    width: 295px;
+    background: white;
+}
+article h1
+{
+    margin-left: 0;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: left;
+ 
+}
+.Auberge h1, p{
+    font-size: 15px;
+}
+.Auberge{
+    width: 100%;
+}
+.Auberge p {
+    margin: 5px 10px 0px 10px; 
+}
+#herbergement
+{
+    width: 100%;
+}
+.Hebergement
+{
+    width: 100%;
+}
+.Hebergement+p
+{
+    font-size: 20px;
+}
+aside
+{
+    width: 115%;
+    margin-left: -15px;
+}
+
+.famille
+{
+    display: inline;
+    width: 108px;
+    float: right;
+    order: 5;
+    margin-right: -53px;
+}
+.romantique
+{
+    width: 145px;
+}
+.economie
+{
+    width: 147px
+}
+.dog
+{
+    width: 224px;
+}
+.etoiles span
+{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.etoilesP span
+{
+    font-size: 10px;
+}
+aside
+{
+    width: 115%;
+    margin-left: -25px;
+    margin-right: -31px;
+}
+.Titre
+{
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+.Titre span
+{
+    margin-right: 54px;
+}
+.Titre h2
+{
+    margin: 0 168px 0 0;
+}
+.populaire
+{
+    height: 123px;
+}
+.populaire .photo7{
+    min-width: 40%;
+}
+  .starM, .star
+{
+    margin-top: 30px;
+}
+.starG{
+    margin-top: 8px;
+}
+.description span 
+{
+    margin-top: 0;
+}
+.rengement
+{
+    flex-direction: column-reverse;
+}
+.Activites .act, .act2 
+{
+    width: 373px
+}
+.Activites
+{
+    flex-direction: column;
+    height: 1236px;
+}
+.double
+{
+    width: 100%;
+    
+}
+.double1
+{
+    width: 100%;
+    
+}
+.double1 .act2:first-child{
+    margin-bottom: 10px;
+    height: 193px;
+}
+
+.double1 .act2:last-child{
+    height: 49%;
+}
+
+.Activites .act
+{
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+  
+    margin: 10px;
+}
+.Activites .act p
+{
+    overflow: hidden;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+#activ
+{
+    text-align: left;
+    font-size: 25px;
+}
+.Activites .act, .double, .double1,.act2
+{
+    margin-left: 0;
+    width: 100%;
+}
+footer
+{
+    margin: 43px -41px 0 -21px;
+}
+.foot 
+{
+    flex-direction: column;
+}
+}@media screen and (max-width:375px){
+    .activite{
+        padding: 54px 83px 10px;
+    }
+    .starM, .star
+    {
+        margin-top: 11px;
+    }
+    .Titre h2
+    {
+        margin-right: 10px;
+    }
+    .Titre span
+    {
+        margin-right: none;
+        margin-left: 44px;
+    }
+    aside{
+        width: 455px;
+    }
+    footer {
+        margin: 32px -57px 0 -21px;
+}}@media screen and (max-width:320px){
+    .activite {
+        padding: 54px 61px 10px;
+
+    }
+    .inform span
+    {
+        padding: 7px 16px 6px 15px;
+    }
+    .Titre h2
+    {
+        margin-right: 10px;
+    }
+    .Titre span
+    {
+        margin-right: none;
+        margin-left: 44px;
+    }
+    .Titre 
+    {
+        margin: 45px 0 0 0px;
+    }
+    aside{
+        width: 408px;
+    }
+    .populaire .photo6, .photo8
+    {
+        min-width: 40%;
+    }
+    .starM, .star
+    {
+        margin-top: 11px;
+    }
+    .Auberge h1
+    {
+        margin: 3px 10px 0px 10px;
+    }
+    .Hebergement+p
+    {
+        margin-left: 0;
+    }
+    .Activites .act, .act2
+    {
+        width: 354px;
+    }
+    .Hebergement
+    {
+        width: 355px;
+    }
+    header img {
+        margin-left: 50%;
+}footer {
+    margin: 35px -65px 0 -31px;
+}.Auberge h1, p {
+    font-size: 13px;
+    margin: 8px 10px 6px 10px;
+}}
