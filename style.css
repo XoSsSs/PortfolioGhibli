@@ -496,3 +496,65 @@ line-height: normal;
         bottom: 150px ;
     }
 }
+@media (max-width:425px) {
+    .Boutton-nav{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    .text p{
+        font-size: 16px;
+    }
+    .buttons
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #transparance{
+        bottom: 160px;
+    }
+    .Box{
+        padding: 0;
+    }
+    .BoxComp{
+        width: auto;
+        padding: 0;
+        background: none;
+    }
+    #Bio{
+        padding: 0;
+    }
+    .Desc{
+        gap: 0;
+    }
+    .Dev{
+        width: auto;
+        height: auto;
+    }
+    .photoK{
+        width: 400px;
+        height: 476px;
+    }
+    .photoS{
+        width: 400px;
+        height: 476px;
+    }
+    .TextJ{
+        width: auto;
+        font-size: 16px;
+    }
+    .BoxContact{
+        width: 345px;
+    }
+    .contact{
+        width: auto;
+        padding: 0;
+    }
+    .Job{
+        padding: 0;
+    }
+    .LesProjets{
+        padding: 20px 0px;
+    }
+}
