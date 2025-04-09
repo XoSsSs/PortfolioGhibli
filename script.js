@@ -49,5 +49,19 @@ Memo.addEventListener("click",()=>{
     window.location.href=("Dossier-Projet/jeu-Memo/main.html")
 })
 Site.addEventListener("click",()=>{
-    window.open.location.href=("Dossier-Projet/Projet2-main/main.html")
+    window.location.href=("Dossier-Projet/Projet2-main/Projet/main.html")
+})
+
+let Mail = document.getElementById("Mail")
+
+Mail.addEventListener("click",()=>{
+    window.location.href="mailto:raphpayet67@gmail.com"
+    console.log("lol")
+})
+
+let Phone = document.getElementById("Phone")
+
+Phone.addEventListener("click",()=>{
+    const numero = "262692572974"
+    window.location.href="https://wa.me/"+numero
 })
