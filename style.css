@@ -558,4 +558,7 @@ line-height: normal;
     .LesProjets{
         padding: 20px 0px;
     }
+    .ImageSeparation{
+        width: 100vw;
+    }
 }
