@@ -496,7 +496,8 @@ line-height: normal;
         bottom: 150px ;
     }
 }
-@media (max-width:425px) {
+
+@media screen and (max-width:425px) {
     .Boutton-nav{
         display: none;
     }
