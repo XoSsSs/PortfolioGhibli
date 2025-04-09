@@ -497,7 +497,7 @@ line-height: normal;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:728px) {
     .Boutton-nav{
         display: none;
     }
