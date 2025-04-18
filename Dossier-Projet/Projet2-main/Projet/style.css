@@ -673,7 +673,7 @@ aside
 {
     
     margin: 25px 0 0 0px;
-    width: 720px
+    width: 100%
 }
 .description p
 {
@@ -889,7 +889,7 @@ article h1
 }
 aside
 {
-    width: 115%;
+    width: 100%;
     margin-left: -15px;
 }
 
@@ -924,7 +924,7 @@ aside
 }
 aside
 {
-    width: 115%;
+    width: 100%;
     margin-left: -25px;
     margin-right: -31px;
 }
